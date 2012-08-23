@@ -1,0 +1,231 @@
+* { margin: 0; padding: 0; }
+body { font: 14px/1.4 Arial,"MS Trebuchet",sans-serif; 
+	background: #cccccc; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: #cccccc; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #cccccc 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cccccc 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cccccc 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cccccc 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cccccc 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+	}
+
+article, aside, figure, footer, header, section { display: block; }
+
+#mainContainer{
+	position: relative;
+	width: 630px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+	}
+
+h1{
+	font: 24px/2 Georgia,"Times New Roman",Times,serif;
+	}
+
+/*NAVIGATION SPRITES*/
+
+nav{
+	margin: 10px 0px 20px 0px;
+	}
+
+ul {
+	font: 12px/1 Arial,"MS Trebuchet",sans-serif;
+	color: black;
+	text-decoration: none;
+	margin-left: 0px;
+	margin-top: 10px;
+
+	} 
+	
+ul a{
+	font: 12px/1 Arial,"MS Trebuchet",sans-serif;
+	color: black;
+	text-decoration: none;
+	margin-left: 16px;
+	}
+	
+ul a:hover{
+	font: 12px/1 Arial,"MS Trebuchet",sans-serif;
+	color: #CC6600;
+	text-decoration: none;
+	}
+	
+ul li {
+	margin-left: 0;
+	display: inline;
+	}
+	
+		
+ul li.first {
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -478px; 
+	}
+
+ul li.second {
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -253px; 
+	}
+
+ul li.third {
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -299px; 
+	}
+
+ul li.fourth {
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -344px; 
+	}
+
+ul li.fifth {
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -388px; 
+	}
+
+.fontlarge{
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -388px; 
+	}
+	
+.fontsmall{
+	margin-left: 0;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -433px; 
+	}
+
+/*MAIN*/
+
+article{
+	float: right;
+	width: 430px;
+	}
+	
+.right{
+    float: right;
+	width: 430px;
+	font-size: 14px;
+	}
+	
+a{
+	font: 14px/1.4 Arial,"MS Trebuchet",sans-serif;
+	color: #CC6600;
+	text-decoration: none;
+	}
+
+a:hover{
+	font: 14px/1.4 Arial,"MS Trebuchet",sans-serif;
+	color: #999;
+	text-decoration: none;
+	}
+	
+aside{
+	float:left;
+	width: 160px;
+	}
+
+#photoCredit{
+	font: 9px/1 Arial,"MS Trebuchet",sans-serif;
+	text-align: right;
+	color: #888;
+	}
+figcaption{
+	font: 12px/1 Arial,"MS Trebuchet",sans-serif;
+	margin-top: 10px;
+	line-height: 1.1em;
+	}
+	
+#author{
+	font: 14px/1.4 Arial,"MS Trebuchet",sans-serif;
+	color: #CC6600;
+	font-weight: bold;
+	}
+#uppercase{
+	text-transform: uppercase;
+	font-size: .8em;
+	}
+#enlargePhoto{
+	padding-left: 20px;
+	display: inline;
+	background-image:url('../images/sprites.gif');
+	background-repeat: no-repeat;
+	background-position:0px -391px;
+	font-size: 10px;
+	text-transform: uppercase; 
+	}
+	
+hr{
+	border-style: dotted;
+	}
+	
+#update{
+	font-size: .9em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+	}
+	
+footer{
+	clear:both;
+	margin: 20px;
+	}
+	
+/*Increase Font-Size*/
+
+#text{ font-size:14px}
+#text.large{ font-size:16px}​
+
+/* =font resizing stuff:
+ * ================================================== */
+.fontresize {
+	display: none; /* hide from non-Javascript browsers */
+}
+
+#resizeable{
+	font-size: 14px;
+	}
+	
+#accessibility {
+	text-align: center;
+}
+
+#accessibility li {
+	line-height: 28px;
+	display: inline;
+	margin-right: 0.3em;
+}
+
+#accessibility .current a {
+	color: #990000;
+	text-decoration: none;
+}
+
+#small { font-size: 14px; }
+#large { font-size: 14px; }
+
